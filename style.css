@@ -39,3 +39,45 @@ header ul li a {
     color: white;
     text-decoration: none;
 }
+
+/* Main */
+
+.cont-main {
+    width: 100%;
+    background-color: #1F2937;
+}
+
+.main-one {
+    width: 70%;
+    margin: 50px auto;
+    color: white;
+
+    display: flex;
+    gap: 36px;
+}
+
+.main-one .info-content h1 {
+    font-weight: 1000;
+}
+
+.main-one .info-content {
+    width: 65%;
+}
+
+.main-one .info-content button {
+    padding: 7px 28px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 7.2px;
+    cursor: pointer;
+}
+
+.main-one .image-content {
+    width: 35%;
+    height: auto;
+}
+
+.main-one img {
+    width: 100%;
+}
