@@ -145,3 +145,51 @@ header ul li a {
 }
 
 /* Main Four */
+.cont-main-four {
+    width: 100%;
+    background-color: white;
+}
+
+.main-four {
+    width: 60%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    
+    padding: 50px 0;
+}
+
+.container-call-action {
+    background-color: #3882F6;
+    color: white;
+
+    border-radius: 10px;
+    padding: 50px 120px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-text h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.container-text p {
+    font-size: 15px;
+    margin: 0;
+}
+
+.container-call-action button {
+    border: 1px solid #F9FAF8;
+    border-radius: 3px;
+    background: transparent;
+    color: #F9FAF8;
+    font-weight: bold;
+    cursor: pointer;
+
+    padding: 10px 25px;
+}
+
+/* Footer */
