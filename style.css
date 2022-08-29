@@ -4,7 +4,13 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif; 
     width: 100vw;
-    background-color: #1F2937;
+    background-color: hsl(215, 28%, 17%);
+
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 /* Header */
@@ -81,3 +87,40 @@ header ul li a {
 .main-one img {
     width: 100%;
 }
+
+/* Main Two */
+
+.cont-main-two {
+    width: 100%;
+    background-color: #F9FAF8;
+}
+
+.main-two {
+    width: 70%;
+    margin: auto;
+    padding: 35px 0 72px;
+    color: #1f2937;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+
+.main-two .box-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.main-two .box-containers img {
+    width: 150px;
+    height: auto;
+
+    border-radius: 10px;
+}
+
+/* Main Three */
+
+/* Main Four */
