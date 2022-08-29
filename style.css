@@ -122,5 +122,26 @@ header ul li a {
 }
 
 /* Main Three */
+.cont-main-three {
+    width: 100%;
+    background-color: #E5E7EB;
+}
+
+.main-three {
+    width: 30%;
+    font-size: 20px;
+    margin: 0 auto;
+    color: #1F2937;
+
+    display: flex;
+    flex-direction: column;
+    
+    padding: 50px 0;
+}
+
+.main-three p {
+    align-self: flex-end;
+    font-weight: bold;
+}
 
 /* Main Four */
