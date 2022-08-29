@@ -193,3 +193,8 @@ header ul li a {
 }
 
 /* Footer */
+footer {
+    color: #F9FAF8;
+    padding: 26.8px 0;
+    text-align: center;
+}
